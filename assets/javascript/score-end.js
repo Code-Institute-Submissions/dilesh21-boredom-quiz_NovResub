@@ -30,6 +30,6 @@ saveScore = s => {
     highScore.splice(10);
 
     localStorage.setItem('highScore', JSON.stringify(highScore));
-    return window.location.assign('boredom-quiz/index.html');
+    return window.location.assign('/index.html');
     
 }
