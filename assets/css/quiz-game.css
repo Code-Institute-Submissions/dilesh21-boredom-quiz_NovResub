@@ -7,6 +7,10 @@ body {
   margin-top: 3%;
 }
 
+#question {
+    margin-bottom: 2.5rem;
+}
+
 .choice-box {
     display: flex;
     margin-bottom: 0.8rem;
@@ -74,7 +78,7 @@ body {
   @media screen and (max-width: 768px) {
     .choice-box { min-width: 22rem;}
     #progressDisplay { width: 15rem;}
-    #question {margin-bottom: 2.2rem;}
+    #question {margin-bottom: 1rem;}
 
   }
 
