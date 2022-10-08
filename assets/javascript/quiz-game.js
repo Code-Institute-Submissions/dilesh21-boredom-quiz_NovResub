@@ -834,7 +834,7 @@ getNextQuestion = () => {
     if(questionsLeft.length === 0 || questionNumb === total_questions) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('score-end.html');
+        return window.location.assign('boredom-quiz/score-end.html');
     }
 
     questionNumb++;
