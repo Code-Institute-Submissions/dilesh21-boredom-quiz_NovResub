@@ -1,0 +1,138 @@
+ :root {
+    background-color: black;
+ }
+ 
+ *{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+
+h1 {
+    font-size: 2.7rem;
+    color: whitesmoke;
+    margin-bottom: 5.1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    }
+
+h2 {
+    font-size: 2.1rem;
+    margin-bottom: 4rem;
+}    
+
+.box{ 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+} 
+
+.center-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+ .hidden {
+    display: none;
+} 
+
+ /*button stylings*/
+.button {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background: gold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 900;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
+.button[disabled]:hover {
+    cursor: not-allowed;
+    transform: none;
+}
+
+#scores-button {
+    background: darkturquoise;
+}
+
+.icon {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+/* score-end css*/
+.end-form-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    border: none;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-head-2 {
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#saveScoreButton {
+    border: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #index-box {margin-left: 3.5%; padding-left: 0%;}
+    h1 { font-size: 1.8rem; text-align: center;}
+    .button{padding: 0.5rem; width: 20rem;}
+    #username {width: 20rem; margin-bottom: 1.5rem;}
+    }

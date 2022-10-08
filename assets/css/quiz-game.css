@@ -1,0 +1,81 @@
+body {
+    color: whitesmoke;
+}
+
+#progressPara {
+  font-size: 2rem;
+  margin-top: 3%;
+}
+
+.choice-box {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    background: blue;
+    font-size: 1.5rem;
+    min-width: 40rem;
+}
+
+.choice-box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+
+  .choice-fix {
+    padding: 2rem 2.5rem;
+    color: white;
+  }
+
+  .choice-para {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .correct {
+    background: green; 
+  }
+
+  .incorrect {
+    background: red;
+  }
+
+  /* Progress bar*/
+  #quiz-game {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quiz-fix {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 3%;
+  }
+
+  .quiz-main-text {
+    text-align: center;
+  }
+
+  #progressDisplay {
+    width: 20rem;
+    height: 3rem;
+    border: 4px solid lightgreen;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  #progressDisplayFull{
+    height: 100%;
+    background: lightgreen;
+    width: 0%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .choice-box { min-width: 22rem;}
+    #progressDisplay { width: 15rem;}
+    #question {margin-bottom: 2.2rem;}
+
+  }
+
+ 
