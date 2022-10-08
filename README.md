@@ -38,7 +38,7 @@ The site has been thoroughly tested to ensure its various features as intended.
 + The user will not be able to save their score till they enter a name
 ![save-score](https://user-images.githubusercontent.com/20689249/194716121-ee6a6eb9-d742-46f5-8f3e-13ed7a98f4bf.png)
 
-+A flex layout was used for every page on the site to allow for responsive website. The media queries used ensure that the page fits to the size of screen and still be easy to read.
++ A flex layout was used for every page on the site to allow for responsive website. The media queries used ensure that the page fits to the size of screen and still be easy to read.
 
 ![homeR](https://user-images.githubusercontent.com/20689249/194717139-a764adad-b282-478e-858e-1a1887a2cfdc.png)
 ![quizR](https://user-images.githubusercontent.com/20689249/194717145-c600911e-f433-4e5d-8d56-7647a3df5ff1.png)
