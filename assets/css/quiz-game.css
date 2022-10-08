@@ -78,7 +78,7 @@ body {
     .choice-box { min-width: 22rem;}
     #progressDisplay { width: 15rem;}
     #question {margin-bottom: 1rem;}
-
+    .box {padding: 5%;}
   }
 
  
