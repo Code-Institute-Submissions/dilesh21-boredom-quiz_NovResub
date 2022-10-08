@@ -28,7 +28,7 @@ The quiz will have a total of 25 random questions, with users competing to get i
 ## Testing
 The site has been thoroughly tested to ensure its various features as intended.
 
-When hovering over a button, the button transforms as intended.
++ When hovering over a button, the button transforms as intended.
 ![buttonhover](https://user-images.githubusercontent.com/20689249/194716689-5da78829-559b-48c2-9ae7-f947dfb986f4.png)
 
 + Clear indication of Correct and incorrect choices the user makes.
