@@ -1,6 +1,6 @@
 # Boredom Quiz
 
-Boredom Quiz is a site that hopes to allow people to relieve their boredom. This could be a someone having a slow work day or just someone trying to kill some time.
+Boredom Quiz is a site that hopes to allow people to relieve their boredom. This could be someone having a slow work day or just someone trying to kill some time.
 The quiz will have a total of 25 random questions, with users competing to get in the top 10.
 ![home](https://user-images.githubusercontent.com/20689249/194715350-80191179-7b86-4a9d-8906-78f6b2c05322.png)
 
