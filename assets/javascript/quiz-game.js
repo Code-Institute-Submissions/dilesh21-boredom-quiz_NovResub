@@ -507,7 +507,7 @@ let questions = [
         choice1: 'Netflix',
         choice2: 'Amazon Prime',
         choice3: 'Apple TV+',
-        choice4: 'Dinsey +',
+        choice4: 'Disney +',
         answer: '3'
     },
     {
@@ -834,7 +834,7 @@ getNextQuestion = () => {
     if(questionsLeft.length === 0 || questionNumb === total_questions) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('/score-end.html');
+        return window.location.assign('score-end.html');
     }
 
     questionNumb++;
