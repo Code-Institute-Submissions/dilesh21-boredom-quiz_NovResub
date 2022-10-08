@@ -63,3 +63,5 @@ The live link can be found here - https://dilesh21.github.io/boredom-quiz/
 + The icons in the buttons were taken from [Font Awesome](https://fontawesome.com/)
 + [W3Schools Json](https://www.w3schools.com/js/js_json.asp) was used as reference in the website
 + [W3Schools Data Attributes](https://www.w3schools.com/tags/att_global_data.asp) was used as reference in the website
++ [MDN Math.Floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) was used as reference in the website
++ [MDN Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) was used as reference in the website
