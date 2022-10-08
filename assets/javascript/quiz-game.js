@@ -1,5 +1,3 @@
-/*linking the html to the javascript*/
-
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-para'));
 const progressPara = document.querySelector('#progressPara');
@@ -814,7 +812,7 @@ let questions = [
         choice4: 'Sandro Botticelli',
         answer: '1'
     }
-]
+];
 
 /*100 questions where 25 random questions are selected can increase and decrease number of questions if needed*/
 /*Every correct answer will give the user '100 points'*/
@@ -826,7 +824,7 @@ startQuiz = () => {
     score = 0;
     questionsLeft = [...questions];
     getNextQuestion();
-}
+};
 
 /*Contiunes to next question till total number of questions reached*/
 /*Once last question is answered, score is stored and user is redirected to score-end page*/
@@ -835,7 +833,7 @@ getNextQuestion = () => {
         localStorage.setItem('mostRecentScore', score);
 
         return window.location.assign('score-end.html');
-    }
+    };
 
     questionNumb++;
     progressPara.innerText = `Question ${questionNumb} of ${total_questions}`;
@@ -849,7 +847,7 @@ getNextQuestion = () => {
     choices.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
 
     questionsLeft.splice(questionIndicator, 1);
 
@@ -877,12 +875,12 @@ choices.forEach(choice => {
         getNextQuestion();
     }, 1000);
 
-    })
-})
+    });
+});
 
 incrementScore = num => {
     score += num;
     scoreTxt.innerText = score;
-}
+};
 
 startQuiz();
