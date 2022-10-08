@@ -26,7 +26,7 @@ saveScore = s => {
     highScore.sort((a,b) => {
         return b.score - a.score
     })
-    /*Return top 10 scores*/
+    /*Top ten scores will be displayed*/
     highScore.splice(10);
 
     localStorage.setItem('highScore', JSON.stringify(highScore));
