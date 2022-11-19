@@ -19,13 +19,20 @@ The quiz will have a total of 25 random questions, with users competing to get i
 	+ This page will feature the top 10 user's score
 ![highscores](https://user-images.githubusercontent.com/20689249/194716186-cf7ec7fc-80e3-4f52-a6db-c1ebba7cd0f7.png)
 
++ Dark/Light Mode button
+	+ This allows the user to choose between a light theme or a dark theme while completing the quiz.
+
 ## Features Left to Implement
 + Adding a timer, the quiz will move on to the next question if the user has not picked an answer.
 + Adding categories, users will be able to choose between random questions to specific category-based questions
 + Adding difficulty levels, the questions will become harder or easier depending on the user’s choice
 + Adding appropriate images for questions, the images may be used to provide clues and improve the appearance of the website
 
-## Testing
+#Design
++ The layout was chosen to keep it simple as possible for the end user to enjoy.
++ The colours used for the design were used to keep everything viewable to the user
+
+# Testing
 The site has been thoroughly tested to ensure its various features as intended.
 
 + When hovering over a button, the button transforms as intended.
@@ -65,3 +72,5 @@ The live link can be found here - https://dilesh21.github.io/boredom-quiz/
 + [W3Schools Data Attributes](https://www.w3schools.com/tags/att_global_data.asp) was used as reference in the website
 + [MDN Math.Floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) was used as reference in the website
 + [MDN Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) was used as reference in the website
++ [Tutorial Brian design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) was used to help with code
++ [W3Schools](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp) was was used as reference in the website
