@@ -28,7 +28,7 @@ The quiz will have a total of 25 random questions, with users competing to get i
 + Adding difficulty levels, the questions will become harder or easier depending on the user’s choice
 + Adding appropriate images for questions, the images may be used to provide clues and improve the appearance of the website
 
-#Design
+# Design
 + The layout was chosen to keep it simple as possible for the end user to enjoy.
 + The colours used for the design were used to keep everything viewable to the user
 
