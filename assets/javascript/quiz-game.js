@@ -884,3 +884,30 @@ incrementScore = num => {
 };
 
 startQuiz();
+
+function lightMode() {
+    var elementBody = document.body;
+    var elementH1 = document.querySelector('#score');
+    var elementA = document.querySelector('#answer1');
+    var elementB = document.querySelector('#answer2');
+    var elementC = document.querySelector('#answer3');
+    var elementD = document.querySelector('#answer4');
+    var elementp1 = document.querySelector('#paraL1');
+    var elementp2 = document.querySelector('#paraL2');
+    var elementp3 = document.querySelector('#paraL3');
+    var elementp4 = document.querySelector('#paraL4');
+    var elementBtn = document.querySelector('#btn2');
+
+    elementBody.classList.toggle("light-mode");
+    elementH1.classList.toggle("light-h1");
+    elementA.classList.toggle("choice-box-light");
+    elementB.classList.toggle("choice-box-light");
+    elementC.classList.toggle("choice-box-light");
+    elementD.classList.toggle("choice-box-light");
+    elementp1.classList.toggle("light-Btn1");
+    elementp2.classList.toggle("light-Btn1");
+    elementp3.classList.toggle("light-Btn1");
+    elementp4.classList.toggle("light-Btn1");
+    elementBtn.classList.toggle("light-Btn1");
+
+};
