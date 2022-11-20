@@ -9,7 +9,12 @@
     box-sizing: border-box;
  }
 
-h1 {
+ .light-mode {
+    background-color: white;
+    color: black;
+  }
+
+.dark-h1 {
     font-size: 2.7rem;
     color: whitesmoke;
     margin-bottom: 5.1rem;
@@ -17,10 +22,28 @@ h1 {
     font-weight: 900;
     }
 
+.light-h1 {
+    color: black;
+}
+
 h2 {
     font-size: 2.1rem;
     margin-bottom: 4rem;
-}    
+} 
+
+#end-head-2 {
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.dark-h2 {
+    color: whitesmoke;
+}
+
+.light-h2 {
+    color: black;
+}
 
 .box{ 
     width: 100vw;
@@ -71,6 +94,16 @@ h2 {
     
 }
 
+#btn2 { 
+  margin-top: 0%;
+  background: red;
+  
+}
+
+.light-btn {
+    color: black;
+}
+
 .button:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -108,8 +141,16 @@ input {
     border: none;
 }
 
+.inputFi {
+    background-color: white;
+}
+
 input::placeholder {
-    color: grey;
+    color: black;
+}
+
+.inputFi-light {
+    background-color: lightgreen;
 }
 
 #username {
@@ -118,11 +159,7 @@ input::placeholder {
     outline: none;
 }
 
-#end-head-2 {
-    font-size: 3rem;
-    color: whitesmoke;
-    text-align: center;
-}
+
 
 #saveScoreButton {
     border: none;
@@ -131,8 +168,8 @@ input::placeholder {
 
 
 @media screen and (max-width: 768px) {
-    #index-box {margin-left: 3.5%; padding-left: 0%;}
-    h1 { font-size: 1.8rem; text-align: center;}
-    .button{padding: 0.5rem; width: 20rem;}
+    #index-box {margin-left: 3.5%; padding-left: 0%; height: 100vh; padding-bottom: 0;} 
+    h1 { font-size: 1.8rem; text-align: center; }
+    .button{padding: 0.5rem; width: 20rem; font-size: 1rem;} 
     #username {width: 20rem; margin-bottom: 1.5rem;}
     }
