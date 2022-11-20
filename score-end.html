@@ -12,16 +12,20 @@
 <body>
     <div class="box">
         <div id="end-head-1" class="column-flex center-flex">
-            <h1 id="totalScore">0</h1>
+            <h1 id="totalScore" class="dark-h1">0</h1>
             <form class="end-form-box">
-                <h2 id="end-head-2">Enter your name below and save your score!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name:">
+                <h2 id="end-head-2" class="dark-h2">Enter your name below and save your score!</h2>
+                <input type="text" name="name" id="username" class="inputFi" placeholder="Enter your name:">
                 <button class="button" id="saveScoreButton" type="submit" onclick="saveScore(event)" disabled>Save score</button>
             </form>
-            <a href="quiz-game.html" class="button">Try Again!</a>
-            <a href="index.html" class="button">Back to Home</a>
+            <a href="quiz-game.html" id="btnTa" class="button">Try Again!</a>
+            <a href="index.html" id="btnBh" class="button">Back to Home</a>
+            <button  id="btn2" class="button column-flex center-flex" onclick="lightMode()">Toggle Light/Dark mode</button>
         </div>
     </div>
+    
+
     <script src="assets/javascript/score-end.js"></script>
+
 </body>
 </html>
