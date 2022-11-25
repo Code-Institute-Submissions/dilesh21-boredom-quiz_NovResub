@@ -45,3 +45,11 @@ body {
     color: black;
   }
 
+@media screen and (max-width: 768px) {  
+    #totalScore {margin-bottom: 10%;}
+}
+
+@media screen and (min-width:769px) and (max-width: 1500px) {
+    #totalScore {margin-top: 5%; margin-bottom: 2%;}
+    #scoreList { margin-bottom: 2%;}
+}
