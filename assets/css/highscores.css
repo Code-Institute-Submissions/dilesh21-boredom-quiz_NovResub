@@ -50,6 +50,7 @@ body {
 }
 
 @media screen and (min-width:769px) and (max-width: 1500px) {
-    #totalScore {margin-top: 5%; margin-bottom: 2%;}
-    #scoreList { margin-bottom: 2%;}
+    #totalScore {margin-top: 1%; margin-bottom: 2%;}
+    #scoreList {margin-bottom: 2%;}
+    #scoreList li{ margin-bottom:0%;}
 }
