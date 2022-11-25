@@ -46,6 +46,7 @@ body {
     border-radius: 5px;
     font-weight: 900;
     align-items: center;
+    
   }
 
   .light-Btn1 {
@@ -120,4 +121,9 @@ body {
 
   }
 
- 
+  @media screen and (min-width:769px) and (max-width: 1500px) {
+    #qg-box {height: 100vh;}
+    #question {margin-bottom: 5px;}
+    #progressDisplay {margin-top: 2%;}
+    #quiz-game {height: 8rem; }
+  }
